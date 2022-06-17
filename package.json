@@ -1,0 +1,29 @@
+{
+  "name": "radcard",
+  "version": "1.0.0",
+  "description": "Cards game for employ",
+  "main": "index.js",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "npm run dev -w server",
+    "dev:client": "npm run dev -w client",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yonatansnir/Radcard.git"
+  },
+  "author": "Yonatan Snir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yonatansnir/Radcard/issues"
+  },
+  "homepage": "https://github.com/yonatansnir/Radcard#readme",
+  "dependencies": {
+    "concurrently": "^7.2.2"
+  }
+}

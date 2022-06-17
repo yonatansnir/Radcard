@@ -1,0 +1,17 @@
+{
+    "name": "radcard-server",
+    "private": true,
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "tsnd ./src/index.ts"
+    },
+    "dependencies": {
+        "express": "^4.18.1"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.13",
+        "ts-node": "^10.8.1",
+        "ts-node-dev": "^2.0.0",
+        "vitest": "^0.15.1"
+    }
+}
